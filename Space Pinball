@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Written by Eric Crosson
+# 2016-08-10 (Happy Birthday g'pa!)
+
+set -e
+set -x
+
+wine "C:\Program Files\Microsoft Games\Pinball\pinball.exe"

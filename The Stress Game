@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# Written by Eric Crosson
+# 2016-08-10 (Happy Birthday g'pa!)
+
+set -e
+set -x
+
+readonly gamedir=".data"
+
+wine ${gamedir}/The_Stress_Game/stress.exe
